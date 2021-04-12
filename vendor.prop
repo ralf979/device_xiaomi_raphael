@@ -133,6 +133,11 @@ dalvik.vm.dex2oat-filter=speed
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.dex2oat64.enabled=true
 
+# Data modules
+persist.vendor.data.iwlan.enable=true
+persist.vendor.data.mode=concurrent
+
+
 # Display
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.has_HDR_display=true

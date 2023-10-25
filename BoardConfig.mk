@@ -7,6 +7,8 @@
 DEVICE_PATH := device/xiaomi/raphael
 QCOM_COMMON_PATH := device/qcom/common
 
+BUILD_BROKEN_CLANG_PROPERTY := true
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 

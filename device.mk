@@ -415,6 +415,7 @@ PRODUCT_PACKAGES += \
     libril \
     librilutils \
     librmnetctl \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     libxml2
 
 PRODUCT_PACKAGES += \

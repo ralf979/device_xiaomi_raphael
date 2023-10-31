@@ -15,8 +15,8 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common DerpFest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common BlackIron stuff.
+$(call inherit-product, vendor/blackiron/config/common_full_phone.mk)
 
 
 # Bootanimation Resolution
@@ -28,8 +28,8 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # Disable/Enable Blur Support, default is false
 TARGET_ENABLE_BLUR := true
 
-# Derp
-DERP_BUILDTYPE := Official
+# Blackiron
+BLACKIRON_BUILDTYPE := Official
 
 EXTRA_UDFPS_ANIMATIONS := true
 
@@ -37,7 +37,7 @@ EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_raphael
+PRODUCT_NAME := blackiron_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro

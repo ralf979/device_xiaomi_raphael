@@ -119,7 +119,7 @@ vendor/lib64/soundfx/libdirac.so
 vendor/lib64/soundfx/libshoebox.so
 
 # Audio (Hardware)
-vendor/lib/hw/audio.primary.msmnile.so
+vendor/lib/hw/audio.primary.msmnile.so|4aa9c785ba2633f57d338b6ed2180f5ec6aa8041
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti

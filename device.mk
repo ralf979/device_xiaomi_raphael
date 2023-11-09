@@ -417,6 +417,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/services/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     $(LOCAL_PATH)/configs/services/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc
 
+# VNDK
+PRODUCT_COPY_FILES += \
+	prebuilts/vndk/v29/arm64/arch-arm-armv8-a/shared/vndk-core/libxml2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml2-v29.so \
+	prebuilts/vndk/v29/arm64/arch-arm-armv8-a/shared/vndk-core/libmedia_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmedia_helper-v29.so
+
 # Power
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor \

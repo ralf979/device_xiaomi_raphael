@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_raphael.mk
+    $(LOCAL_DIR)/blackiron_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_raphael-user \
-    lineage_raphael-userdebug \
-    lineage_raphael-eng
+    blackiron_raphael-user \
+    blackiron_raphael-userdebug \
+    blackiron_raphael-eng

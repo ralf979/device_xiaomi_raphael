@@ -55,10 +55,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \

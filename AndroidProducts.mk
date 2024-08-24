@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_raphael.mk
+    $(LOCAL_DIR)/custom_raphael.mk
+
+COMMON_LUNCH_CHOICES := \
+    custom_raphael-user \
+    custom_raphael-userdebug \
+    custom_raphael-eng

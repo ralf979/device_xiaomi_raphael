@@ -25,6 +25,8 @@ $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
 
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true

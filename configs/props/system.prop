@@ -1,3 +1,12 @@
+# ADB on boot
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
+persist.service.debuggable=1
+persist.service.adb.enable=1
+persist.vendor.usb.config=mtp,adb
+persist.sys.usb.config=mtp,adb
+
 # Camera
 persist.vendor.camera.privapp.list=com.android.camera
 log.tag.CHIUSECASE=ERROR

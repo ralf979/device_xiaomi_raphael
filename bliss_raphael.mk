@@ -23,7 +23,7 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common BLISS stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 $(call inherit-product, vendor/lineage-priv/keys/keys.mk)
-WITH_GMS := true
+BLISS_BUILDTYPE := OFFICIAL
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080

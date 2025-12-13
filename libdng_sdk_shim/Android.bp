@@ -1,0 +1,16 @@
+cc_library_shared {
+    name: "libdng_sdk_shim",
+    srcs: ["dng_sdk_shim.cpp"],
+    vendor: true,
+    compile_multilib: "64",
+
+    // Point to the headers so we can include "dng_area_task.h"
+    include_dirs: [
+        "external/dng_sdk/source",
+    ],
+
+    // Link against the real library to forward the call
+    shared_libs: [
+        "libdng_sdk",
+    ],
+}

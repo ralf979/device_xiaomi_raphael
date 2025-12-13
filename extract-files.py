@@ -46,6 +46,7 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/camera/components/com.qti.node.watermark.so': blob_fixup()
+        .add_needed('libdng_sdk_shim.so')
         .add_needed('libpiex_shim.so'),
     (
      'vendor/lib64/libalAILDC.so',
